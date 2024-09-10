@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# 10-add.py
 
 def add(a, b):
-    return (a + b)
+    return a + b
