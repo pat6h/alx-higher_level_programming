@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-print(", ".join([f"{i:02d}" for i in range(99)]), end=", ")
-print(f"{99:02d}")
+for number in range(0, 100):
+    if number == 99:
+        print("{}".format(number))
+    else:
+        print("{:02}".format(number), end=", ")
